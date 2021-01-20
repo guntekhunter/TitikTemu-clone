@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 header {
@@ -22,7 +22,8 @@ header nav{
 }
 header nav h1{
     font-size:2.2rem;
-    font-family:'Quicksand', sans-serif;
+    font-weight:400;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex: 1;
 }
@@ -35,9 +36,10 @@ header nav h1 div{
 
 }
 header nav ul{
-    font-family:'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
+    font-weight: 100;
     font-size:.9rem;
     line-height: 2rem;
 }
@@ -49,7 +51,7 @@ header nav ul li{
 header nav ul li a{
     transition: all .1s ease-out;
     padding-bottom: 10px;
-    font-weight:bold;
+    font-weight: 500;
     text-decoration: none;
     color: #ff9f68;
 }
@@ -96,12 +98,13 @@ section{
     line-height: 3.8rem;
 }
 .container .text h1{
-    width: 50%;
-    font-size:4vw;
+    font-weight: 600;
+    width: 70%;
+    font-size:3.9vw;
     line-height: 3.8rem;
 }
 .container .text p{
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 section{
@@ -146,7 +149,8 @@ section a{
 .kedua{
     display:flex;
     align-items: center;
-    padding-left: 14%;
+    justify-content:space-around;
+    padding:2rem 9rem;
 }
 .kedua .text{
     width: 50%;
@@ -156,9 +160,12 @@ section a{
     font-size:4vw;
 }
 .kedua p{
-    margin-top:1rem;
-    font-weight: bold;
+    margin-top:1.5rem;
+    font-weight: 500;
     line-height: 1.5rem;
     color:rgb(129, 129, 129);
     width:78%;
+}
+.kedua .text, img{
+    height:50%;
 }
