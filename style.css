@@ -7,7 +7,7 @@
 }
 header {
     background:white;
-    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.1);
     display: flex;
     position: sticky;
     top: 0;
@@ -157,15 +157,38 @@ section a{
 }
 .kedua h1{
     line-height: 3.8rem;
-    font-size:4vw;
+    font-size:3vw;
 }
 .kedua p{
-    margin-top:1.5rem;
+    margin-top:1.8rem;
     font-weight: 500;
     line-height: 1.5rem;
     color:rgb(129, 129, 129);
     width:78%;
 }
 .kedua .text, img{
+    height:50%;
+}
+.ketiga{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    padding:2rem 9rem;
+}
+.ketiga .text{
+    width: 50%;
+}
+.ketiga h1{
+    line-height: 3.8rem;
+    font-size:3vw;
+}
+.ketiga p{
+    margin-top:1.8rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color:rgb(129, 129, 129);
+    width:78%;
+}
+.ketiga .text, img{
     height:50%;
 }
